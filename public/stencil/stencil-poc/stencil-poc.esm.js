@@ -1,0 +1,2 @@
+import{p as a,b as o}from"./p-4eZ7Wr37.js";export{s as setNonce}from"./p-4eZ7Wr37.js";import{g as n}from"./p-DQuL1Twl.js";var t=()=>{const o=import.meta.url;const n={};if(o!==""){n.resourcesUrl=new URL(".",o).href}return a(n)};t().then((async a=>{await n();return o([["p-5866ac26",[[257,"loading-component",{data:[32],isLoading:[32]}],[257,"my-component",{name:[1],inputValue:[32]}]]]],a)}));
+//# sourceMappingURL=stencil-poc.esm.js.map

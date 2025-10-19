@@ -1,17 +1,17 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div style="padding: 20px;">
+    <h1>Vue with POC Stencil</h1>
+    <my-component name="Vue User: Isabele"></my-component>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
+  mounted() {
+    this.$el.querySelector('my-component').addEventListener('nameChanged', e => {
+      console.log('From Vue:', e.detail);
+    });
   }
 }
 </script>
